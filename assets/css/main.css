@@ -1,0 +1,215 @@
+.social_links{
+    font-size: 27px;
+}
+
+.top-section a{
+    color: green;
+}
+.contact_info i {
+    font-size: 27px;
+    color: green;
+    padding: 0.2px;
+}
+
+.top-section {
+    display: none;
+}
+
+#landing-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/1512035243_Ladakh-Home.jpg.jpg');
+    background-size: cover;
+}
+
+#navbar-wrapper {
+    opacity: 0.7;
+}
+
+.logo-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    background: rgba(196, 140, 99, 0.5);
+
+border-radius: 50%;
+    transition: all 0.5s ease-out;
+}
+
+.logo-wrapper:hover{
+        background: rgba(196, 140, 99, 0.8);
+
+}
+
+#ladakh-logo {
+    height: 400px;
+    width: 400px;
+}
+
+.rest-dummy {
+/*    display: none;*/
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100vw;
+}
+
+#our-services {
+    padding-top: 100vh;
+}
+
+#our-services img {
+    height: 500px;
+    width: 1166px;
+}
+
+#services-heading-div {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    top: -20px; 
+}
+
+#services-heading {
+    font-size: 30px
+}
+
+.dropdown{
+    transition: all ease-out 0.1s;
+}
+
+.dropdown:hover{
+    background-color: #3db54a;
+}
+
+.navbar-custom {
+    background: #b48666;
+}
+
+ @media only screen and (max-width: 600px) {
+     #ladakh-logo{
+         height: 300px;
+         width: 300px;
+     }
+
+}
+
+.container_inner {
+
+}
+
+.way_book_outer {
+        display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.way_book {
+            display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.accept_members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#follow-us {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#follow-us-header {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+#follow-us-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: green;
+}
+#follow-us-logos i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fnav_title {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.foot_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    flex-wrap: wrap;
+}
+.foot_nav li{
+    margin: 10px;
+    
+}
+.foot_nav li{
+    margin: auto;
+}
+
+#contact-us-form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  align-items: center;
+    flex-wrap: wrap;
+}
+#contact-us-form input{
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.enquiresec {
+    margin-bottom: 30px;
+}
+
+#submit-button {
+    display: block;
+    margin-top: 20px;
+    background: green;
+
+color: white;
+
+font-size: 20px;
+
+font-weight: 800;
+
+border-radius: 5px;
+
+border: 0px;
+}
+
+#psedo-break {
+    width: 100vw;
+}
